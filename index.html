@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreditBee Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 70px;
+            font-weight: 550;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .cta-button {
+            border: 2px solid #ff4d4d;
+            padding: 10px 20px;
+            color: #ff4d4d;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4d4d;
+            color: #fff;
+        }
+
+        .why-choose {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .why-choose h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .why-choose p {
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 0 50px;
+           
+        }
+
+        .feature {
+            text-align: left;
+            width: 25%;
+            border-radius: 5px;
+            padding: 0px 20px;
+            margin: 0px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .feature img {
+            width: 120px;
+            height: 100px;
+            margin-bottom: 4px;
+        }
+
+        .blog-section {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+        }
+        .blog-section h3{
+            font-size: 28px;
+            margin-bottom: 20px;
+            padding-left: 30px; 
+            text-align: left;
+        }
+        .blog-section h4 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            padding-left: 10px; 
+            text-align: left;
+        }
+        .blog-section p{
+            margin-bottom: 20px;
+            padding-left: 12px; 
+            text-align: left;
+        }
+        .blogs {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .blog-card {
+            background-color: #fff;
+            width: 30%;
+            margin: 10px -2px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .form-section {
+            background-color: #fdd835;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .form-section h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .form a{
+            text-decoration: none;
+        }
+        .form {
+            width: 300px;
+            background-color: #fff;
+            text-align: left;
+            padding: 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        /* span{}
+        [] */
+        .form h3{
+            text-align: center;
+        }
+        .form p{
+            text-align: center;
+        }
+        .form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form button {
+            padding: 10px 20px;
+            width: 300px;
+            background-color: #564dff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .p{
+            font-size :10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="https://ik.imagekit.io/krazybee/kreditbee_in/logo_horizontal_BNqOuZWg_.svg" width="350px" height="50px" alt="KreditBee Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Loans</a></li>
+                <li><a href="#">Calculators</a></li>
+                <li><a href="#">Credit Report</a></li>
+                <li><a href="#">Refer & Earn</a></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><a href="#" class="cta-button">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose">
+        <h2>Why Choose KreditBee?</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="Lower Interest Rates">
+                <h4>Lower Interest Rates</h4>
+                <p>Multiple options with lower interest rates.</p>
+            </div>
+            <div class="feature">
+                <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-2.svg" alt="Fast Processing">
+                <h4>Fast Processing & Disbursal</h4>
+                <p>Money directly to your bank within 10 minutes.</p>
+            </div>
+            <div class="feature">
+                <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-3.svg" alt="Easy Repayment">
+                <h4>Easy Repayment Options</h4>
+                <p>Flexible tenure and easy EMI repayment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <h3>Fresh from the Blog</h3>
+        <div class="blogs">
+            <div class="blog-card">
+                <img src="comfy.png" alt="Comfy Throws">
+                <h4>9 Comfy Throws for Cozy Autumn Vibes</h4>
+                <p>Embrace the cozy vibes with stylish throws.</p>
+            </div>
+            <div class="blog-card">
+                <img src="bag.png" alt="Beautiful Bags">
+                <h4>14 Beautiful Bags That Express Your Unique Style</h4>
+                <p>Stylish bags for every occasion.</p>
+            </div>
+            <div class="blog-card">
+                <img src="⁭gift.png" alt="Best Gift Ideas">
+                <h4>The Best Gift Ideas for Kids of All Ages</h4>
+                <p>A wide selection of gifts for kids.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        
+        <form class="form">
+            <h3>Create Account</h3>
+            <p>Already have an acount <span><a href="#">Sign in</a></span></p>
+            <label for="name" >Full Name*</label>
+            <input type="text" placeholder="Full Name">
+
+            <label for="name" >Email address*</label>
+            <input type="email" placeholder="Email address">
+
+            <label for="name" >Phone Number*</label>
+            <input type="tel" placeholder="Phone Number">
+
+            <label for="name" >Refreral Code(Optional)</label>
+            <input type="text" placeholder="Referral Code (Optional)">
+
+            <button type="submit">Submit</button>
+            <p class="p">By signing up, I accept the Masai <a href="#">Terms and Service</a> and acknowledge the <a href="#">Privecy Policy</a></p>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>COPYRIGHT © ETSY PRIVATE LIMITED. ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+</html>
